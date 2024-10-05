@@ -1,10 +1,9 @@
-import Card from "./Card.jsx"
+import Counter from "./Counter.jsx"
 
 function App() {
   return(
     <>
-        <Card title="Dunkash" text = "I make pizza and eat it" isLoggedIn = {false}></Card>
-        <Card title="Spongebob" text = "I make crabby patties" isLoggedIn = {true}></Card>
+        <Counter></Counter>
     </>
   )
   
