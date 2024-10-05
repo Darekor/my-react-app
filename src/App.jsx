@@ -1,9 +1,9 @@
-import Counter from "./Counter.jsx"
+import ColorPickerRGB from "./ColorPickerRGB.jsx"
 
 function App() {
   return(
     <>
-        <Counter></Counter>
+    <ColorPickerRGB></ColorPickerRGB>
     </>
   )
   
