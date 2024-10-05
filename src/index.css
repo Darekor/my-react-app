@@ -1,6 +1,6 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
-
+  background-color: rgba(0, 0, 0, 0.90)
 }
 
 .card{
@@ -89,4 +89,74 @@ body{
 .picker-container .color-block
 {
   margin-top: 15px;
+}
+
+.task-container{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.task-container .task-header{
+  font-size: 3rem;
+  color: white;
+}
+
+.task-container button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+  padding: 10px 20px;
+}
+
+.task-container .add-button{
+  background-color: rgba(0, 128, 0, 0.8);
+}
+
+.task-container .add-button:hover{
+  background-color: rgba(0, 128, 0, 0.9);
+}
+
+.task-container .delete-button{
+  background-color: red;
+}
+
+.task-container .move-button{
+  background-color: rgba(0, 0, 255, 0.7);
+}
+
+.task-container #input-field{
+  font-size: 1.5rem;
+  padding: 10px;
+  border: 2px solid rgba(0, 0, 255, 0.5);
+  border-radius: 5px;
+}
+
+.task-container ul{
+  padding: 0;
+}
+
+.task-container li{
+  font-size: 1.9rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.97);
+  margin-bottom: 10px;
+  border: solid 3px black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.task-container li .task-text{
+  flex: 1;
+}
+
+.task-container li button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
 }
