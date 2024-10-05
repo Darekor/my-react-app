@@ -1,9 +1,9 @@
-import ColorPickerRGB from "./ColorPickerRGB.jsx"
+import CarList from "./CarList"
 
 function App() {
   return(
     <>
-    <ColorPickerRGB></ColorPickerRGB>
+    <CarList></CarList>
     </>
   )
   
